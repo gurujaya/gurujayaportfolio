@@ -400,25 +400,6 @@ export default function Home() {
         </section>
       </main>
 
-      {/* Vertical section progress nav */}
-      <div className="fixed top-1/2 right-6 z-50 transform -translate-y-1/2 flex flex-col items-center justify-center space-y-6">
-        {["about", "projects", "experience", "contact"].map((section, index) => {
-          const isActive = activeSection === section;
-          return (
-            <a
-              key={section}
-              href={`#${section}`}
-              className={`relative w-4 h-4 rounded-full transition-colors duration-300 ${
-                isActive ? "bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 scale-125 shadow-md" : "bg-gray-400"
-              }`}
-            >
-              {isActive && (
-                <span className="absolute -inset-1 animate-ping rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 opacity-50"></span>
-              )}
-            </a>
-          );
-        })}
-      </div>
 
       <footer className={`text-center p-6 mt-16 ${
         darkMode
