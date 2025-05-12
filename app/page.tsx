@@ -53,22 +53,6 @@ export default function Home() {
 
   useEffect(() => {
     setMounted(true);
-
-    if (typeof window !== "undefined") {
-      (async () => {
-        const LocomotiveScroll = (await import('locomotive-scroll')).default;
-        await import('locomotive-scroll/dist/locomotive-scroll.css');
-
-        const scrollContainer = document.querySelector('[data-scroll-container]');
-        if (scrollContainer) {
-          const scroll = new LocomotiveScroll({
-            el: scrollContainer as HTMLElement,
-            smooth: true,
-          });
-          return () => scroll.destroy();
-        }
-      })();
-    }
   }, []);
 
   // Scroll listener to track active section for progress bar
