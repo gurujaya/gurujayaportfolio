@@ -249,46 +249,46 @@ export default function Home() {
               <span className="absolute bottom-0 left-0 w-full h-[3px] bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-full"></span>
             </h2>
             <div className="grid md:grid-cols-2 gap-12 transition-all duration-700">
-              <div className={`p-8 rounded-2xl hover:scale-105 hover:shadow-xl transition-all duration-500 ${
-                darkMode ? "border border-white/10" : "border border-black/10"
+              <div className={`p-8 rounded-2xl hover:scale-105 hover:shadow-[0_0_20px_rgba(236,72,153,0.2)] hover:ring-1 hover:ring-pink-400/30 transition-all duration-500 ${
+                darkMode ? "border border-white/10 bg-white/5" : "border border-black/10 bg-black/5"
               }`}>
-                <h3 className="text-2xl font-semibold transition-all duration-700">Portfolio Website</h3>
+                <h3 className="text-2xl font-semibold lowercase text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-500 transition-all duration-700">portfolio website</h3>
                 <p className={`${darkMode ? "text-white/70" : "text-black/70"} mt-4 transition-all duration-700`}>Built using Next.js and Tailwind CSS. This site showcases my work and skills.</p>
               </div>
-              <div className={`p-8 rounded-2xl hover:scale-105 hover:shadow-xl transition-all duration-500 ${
-                darkMode ? "border border-white/10" : "border border-black/10"
+              <div className={`p-8 rounded-2xl hover:scale-105 hover:shadow-[0_0_20px_rgba(236,72,153,0.2)] hover:ring-1 hover:ring-pink-400/30 transition-all duration-500 ${
+                darkMode ? "border border-white/10 bg-white/5" : "border border-black/10 bg-black/5"
               }`}>
-                <h3 className="text-2xl font-semibold transition-all duration-700">Posturly</h3>
+                <h3 className="text-2xl font-semibold lowercase text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-500 transition-all duration-700">posturly</h3>
                 <p className={`${darkMode ? "text-white/70" : "text-black/70"} mt-4 transition-all duration-700`}>A smart posture-correcting device with real-time feedback and app integration.</p>
               </div>
-              <div className={`p-8 rounded-2xl hover:scale-105 hover:shadow-xl transition-all duration-500 ${
-                darkMode ? "border border-white/10" : "border border-black/10"
+              <div className={`p-8 rounded-2xl hover:scale-105 hover:shadow-[0_0_20px_rgba(236,72,153,0.2)] hover:ring-1 hover:ring-pink-400/30 transition-all duration-500 ${
+                darkMode ? "border border-white/10 bg-white/5" : "border border-black/10 bg-black/5"
               }`}>
-                <h3 className="text-2xl font-semibold transition-all duration-700">Speedball Bracket Manager</h3>
+                <h3 className="text-2xl font-semibold lowercase text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-500 transition-all duration-700">speedball bracket manager</h3>
                 <p className={`${darkMode ? "text-white/70" : "text-black/70"} mt-4 transition-all duration-700`}>
                   Designed and managed an automated tournament bracket system for school-wide speedball events, increasing participation and streamlining scheduling.
                 </p>
               </div>
-              <div className={`p-8 rounded-2xl hover:scale-105 hover:shadow-xl transition-all duration-500 ${
-                darkMode ? "border border-white/10" : "border border-black/10"
+              <div className={`p-8 rounded-2xl hover:scale-105 hover:shadow-[0_0_20px_rgba(236,72,153,0.2)] hover:ring-1 hover:ring-pink-400/30 transition-all duration-500 ${
+                darkMode ? "border border-white/10 bg-white/5" : "border border-black/10 bg-black/5"
               }`}>
-                <h3 className="text-2xl font-semibold transition-all duration-700">Rooted Together</h3>
+                <h3 className="text-2xl font-semibold lowercase text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-500 transition-all duration-700">rooted together</h3>
                 <p className={`${darkMode ? "text-white/70" : "text-black/70"} mt-4 transition-all duration-700`}>
                   Led a student-run nonprofit that evolved from food drives to hydroponic farming and education. Impacted 800+ students and secured multiple grants for sustainable agriculture innovation.
                 </p>
               </div>
-              <div className={`p-8 rounded-2xl hover:scale-105 hover:shadow-xl transition-all duration-500 ${
-                darkMode ? "border border-white/10" : "border border-black/10"
+              <div className={`p-8 rounded-2xl hover:scale-105 hover:shadow-[0_0_20px_rgba(236,72,153,0.2)] hover:ring-1 hover:ring-pink-400/30 transition-all duration-500 ${
+                darkMode ? "border border-white/10 bg-white/5" : "border border-black/10 bg-black/5"
               }`}>
-                <h3 className="text-2xl font-semibold transition-all duration-700">Vertex Career Development</h3>
+                <h3 className="text-2xl font-semibold lowercase text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-500 transition-all duration-700">vertex career development</h3>
                 <p className={`${darkMode ? "text-white/70" : "text-black/70"} mt-4 transition-all duration-700`}>
                   Founded a platform to help international students navigate U.S. college and career systems. Built resources and peer community to bridge the access gap.
                 </p>
               </div>
-              <div className={`p-8 rounded-2xl hover:scale-105 hover:shadow-xl transition-all duration-500 ${
-                darkMode ? "border border-white/10" : "border border-black/10"
+              <div className={`p-8 rounded-2xl hover:scale-105 hover:shadow-[0_0_20px_rgba(236,72,153,0.2)] hover:ring-1 hover:ring-pink-400/30 transition-all duration-500 ${
+                darkMode ? "border border-white/10 bg-white/5" : "border border-black/10 bg-black/5"
               }`}>
-                <h3 className="text-2xl font-semibold transition-all duration-700">AP Biology + Research Integration</h3>
+                <h3 className="text-2xl font-semibold lowercase text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-500 transition-all duration-700">ap biology + research integration</h3>
                 <p className={`${darkMode ? "text-white/70" : "text-black/70"} mt-4 transition-all duration-700`}>
                   Applied AP Bio principles in pediatric cancer research at the University of Pittsburgh, analyzing methionine restriction in brain tumor nutrition.
                 </p>
